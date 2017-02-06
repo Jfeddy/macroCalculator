@@ -5,10 +5,11 @@ using namespace std;
 
 
 int main(){
+  DailyCalReq();
 	return 0;
 }
 
-/*
+
 double DailyCalReq () {
 	int userGender = 0;
 	double userLbs = 0.0;
@@ -25,7 +26,7 @@ double DailyCalReq () {
 	cin >> userLbs;
 	
 
-	userKgs = userLbs * LbsToKgs
+	userKgs = userLbs * LbsToKgs;
 	
 	if(userGender == 1) {
 		// 24 is the conversion factor for male basal
@@ -37,7 +38,7 @@ double DailyCalReq () {
 
 	int userActivityLevel = 0;
 	double userTotalCalories = 0;
-	double veryLigthMW = 1.3;
+	double veryLightMW = 1.3;
 	double lightM = 1.6;
 	double lightW = 1.5;
 	double moderateM = 1.7;
@@ -82,8 +83,8 @@ double DailyCalReq () {
 		break;
 	}
 
-	cout << "your daily required Caleries is " << userTotalCalories << endl;
+	cout << "your daily required Calories is " << userTotalCalories << endl;
 
 	return userTotalCalories;
 }
-*/
+
