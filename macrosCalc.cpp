@@ -5,9 +5,6 @@ using namespace std;
 
 const int  PCT_CONVERT = 100;
 
-int main() {
-  return 0;
-  }
 
 double calcFat(double kcal, double grams) {
   double g_per_cal = 1/9.0;

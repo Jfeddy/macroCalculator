@@ -4,15 +4,6 @@
 using namespace std;
 
 
-int main(){
-<<<<<<< HEAD
-  DailyCalReq();
-=======
-	DailyCalReq();
->>>>>>> d3362616e50db17a3d0170be082d937d75a41457
-	return 0;
-}
-
 
 double DailyCalReq () {
 	int userGender = 0;

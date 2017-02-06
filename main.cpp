@@ -11,7 +11,7 @@ int main () {
   int macro;
   daily_cal_req = DailyCalReq();
   cout << "Fat, carbs, or protein?: " << endl;
-  cout << "Fat = 1, \nCarbs = 2, \nProtein = 3\n";
+  cout << "1 = Fat, \n2 = Carbs, \n3 = Protein\n";
   cin >> macro;
   if(macro == 1) {
     cout << "How many grams of fat?: ";
