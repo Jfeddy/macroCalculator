@@ -5,10 +5,11 @@ using namespace std;
 
 
 int main(){
+	DailyCalReq();
 	return 0;
 }
 
-/*
+
 double DailyCalReq () {
 	int userGender = 0;
 	double userLbs = 0.0;
@@ -17,7 +18,7 @@ double DailyCalReq () {
 	double LbsToKgs = 1 / 2.2;
 
 	cout << " Are you male or Female?" << endl;
-	cout << "Male = 1 " << endl << "Female = 2" << endl;
+	cout << "1 = Male" << endl << "2 = Female" << endl;
 	cout << "input integer here -----> ";
 	cin >> userGender;
 	cout << endl << "What is your weight in pounds" << endl;
@@ -25,7 +26,7 @@ double DailyCalReq () {
 	cin >> userLbs;
 	
 
-	userKgs = userLbs * LbsToKgs
+	userKgs = userLbs * LbsToKgs;
 	
 	if(userGender == 1) {
 		// 24 is the conversion factor for male basal
@@ -37,7 +38,7 @@ double DailyCalReq () {
 
 	int userActivityLevel = 0;
 	double userTotalCalories = 0;
-	double veryLigthMW = 1.3;
+	double veryLightMW = 1.3;
 	double lightM = 1.6;
 	double lightW = 1.5;
 	double moderateM = 1.7;
@@ -46,8 +47,8 @@ double DailyCalReq () {
 	double heavyW = 1.9;
 
 	cout << "Your basal calorie requirement is " << userBasal << endl;
-	cout << "What activity level are you? " << endl << "Very light = 1" << endl <<
-	"Light = 2" << endl << "Moderate = 3" << endl << "Heavy = 4" << endl;
+	cout << "What activity level are you? " << endl << "1 = Very light" << endl <<
+	"2 = Light" << endl << "3 = Moderate" << endl << "4 = Heavy" << endl;
 	cout << "Input integer here -----> ";
 	cin >> userActivityLevel;
 
@@ -86,4 +87,4 @@ double DailyCalReq () {
 
 	return userTotalCalories;
 }
-*/
+
