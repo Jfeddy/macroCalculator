@@ -5,7 +5,11 @@ using namespace std;
 
 
 int main(){
+<<<<<<< HEAD
   DailyCalReq();
+=======
+	DailyCalReq();
+>>>>>>> d3362616e50db17a3d0170be082d937d75a41457
 	return 0;
 }
 
@@ -18,7 +22,7 @@ double DailyCalReq () {
 	double LbsToKgs = 1 / 2.2;
 
 	cout << " Are you male or Female?" << endl;
-	cout << "Male = 1 " << endl << "Female = 2" << endl;
+	cout << "1 = Male" << endl << "2 = Female" << endl;
 	cout << "input integer here -----> ";
 	cin >> userGender;
 	cout << endl << "What is your weight in pounds" << endl;
@@ -47,8 +51,8 @@ double DailyCalReq () {
 	double heavyW = 1.9;
 
 	cout << "Your basal calorie requirement is " << userBasal << endl;
-	cout << "What activity level are you? " << endl << "Very light = 1" << endl <<
-	"Light = 2" << endl << "Moderate = 3" << endl << "Heavy = 4" << endl;
+	cout << "What activity level are you? " << endl << "1 = Very light" << endl <<
+	"2 = Light" << endl << "3 = Moderate" << endl << "4 = Heavy" << endl;
 	cout << "Input integer here -----> ";
 	cin >> userActivityLevel;
 
